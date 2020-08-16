@@ -51,7 +51,7 @@
   </div>
 
   <div class="slide-content">
-    <img src="img/carg.jpg" alt="Kitten 1" />
+    <img src="img/Carg.jpg" alt="Kitten 1" />
   </div>
 
   <span class="control" slot="right-control">
