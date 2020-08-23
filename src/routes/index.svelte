@@ -1,5 +1,6 @@
 <script>
-  import Banner from "../components/Banner.svelte";
+  //import Banner from "../components/Banner.svelte";
+  //import Carousel from '../components/Carousel.svelte'
   import TransitionWrapper from "../components/TransitionWrapper.svelte";
 </script>
 
@@ -13,25 +14,6 @@
     height: 100%;
     font-family: "Montserrat", sans-serif;
   }
-
-  /* article p {
-    color: #4b4b4b;
-  }
-  .container {
-    display: flex;
-  }
-  .box1 {
-    border-left: solid 2px #4b4b4b;
-    margin: 1rem;
-    display: inline-block;
-    padding: 30px;
-  } */
-  /* i::before {
-    color: #055490;
-  } */
-  /* h3 {
-    margin-top: 17px;
-  } */
 
   a {
     text-decoration: none;
@@ -47,26 +29,6 @@
     margin: 1rem 0;
     line-height: 1.5;
   }
-
-  /* section {
-    max-width: 1000px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 30px;
-  }
-
-  h3 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    color: #333;
-    font-size: 1.825rem;
-    margin: 1.3rem 0;
-  }
-
-  .section-lead {
-    max-width: 600px;
-    margin: 1rem auto 1.5rem;
-  } */
 
   .service a {
     color: #5b7abb;
@@ -175,7 +137,6 @@
 
 <TransitionWrapper>
   <main>
-
     <div class="services-grid">
       <div class="service service1">
         <i class="one fas fa-3x fa-shipping-fast" />

@@ -20,7 +20,7 @@
   }
 
   async function handleSubmit() {
-    if (answer == "0") {
+    if (answer == "YM-THLK6443") {
       loading = true;
       setTimeout(chax, 2000);
     } else {
