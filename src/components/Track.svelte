@@ -165,6 +165,15 @@
     justify-content: space-evenly;
     align-items: center;
   }
+
+  @media all and (max-width: 900px) {
+    .ol .progtrckr li {
+      display: block;
+      /* -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column; */
+    }
+  }
 </style>
 
 {#if loading}

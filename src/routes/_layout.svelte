@@ -4,8 +4,6 @@
   import Prefooter from "../components/Prefooter.svelte";
   import Header from "../components/Header.svelte";
   import Banner from "../components/Banner.svelte";
-  import Carousel from "../components/Carousel.svelte";
-
   export let segment;
 </script>
 
@@ -22,8 +20,8 @@
 
 {#if segment === undefined}
   <Header />
-  <!-- <Banner /> -->
-  <Carousel />
+  <Banner />
+
   <Nav {segment} />
   <main>
     <slot />
